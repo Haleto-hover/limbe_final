@@ -1,0 +1,10 @@
+
+body {
+  width: 100%;
+  max-width: 600px;
+  font-family: Arial, sans-serif;
+  height: 40vh;
+  margin: 0;
+  padding: 0;
+  background-color: #FFFFF3;
+}

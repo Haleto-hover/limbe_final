@@ -1,0 +1,98 @@
+.background {
+  position: relative; /* Нужен для позиционирования внутреннего контента */
+  width: 100%; /* На всю ширину экрана */
+  height: 100vh; /* Высота окна браузера */
+  overflow: hidden; /* Убирает выходящие за границы элементы */
+}
+
+.background img {
+  width: 100%; /* Масштабирует изображение по ширине контейнера */
+  height: 100%; /* Масштабирует по высоте контейнера */
+  object-fit: cover; /* Обрезает изображение с сохранением пропорций */
+  position: absolute; /* Фиксирует изображение внутри контейнера */
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+.text-overlay {
+  position: absolute; /* Располагает текст поверх фона */
+  top: 40%; /* Регулируй по вертикали */
+  left: 50%; 
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.main-span-all {
+  margin-bottom: 50px;
+}
+.main-span-1,
+.main-span-2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color:#000000;
+  font-size: 40px;
+  line-height: 1.4; /* Устанавливает межстрочный интервал */
+}
+
+.main-p-1,
+.main-p-2 {
+  font-size: 10px;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+  color: #000000;
+  line-height: 1.2;
+}
+
+.main-green {
+  color: #106A3E;
+}
+
+.main-bottom {
+  position: absolute;
+  bottom: -150px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: -160px;
+}
+
+.main-offer {
+  border: 1px solid black;
+  font-size: 20px;
+  color: #FFFFF3;
+  background-color: #181B1E;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 320px;
+}
+
+.main-offer:hover {
+  background-color: #106A3E;
+}
+.main-lines img {
+  width: 150px;
+  height: auto;
+  margin-left: 250px;
+  
+}
+.green-block {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  color: #106A3E;
+  z-index: 2;
+}
+
+.knopka {
+  color: #FFFFF3;
+  text-decoration: none;
+}
+.knopka:hover{
+  color: #181B1E;
+}
+.main-bottom {
+  color: #181B1E;
+}

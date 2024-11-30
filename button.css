@@ -1,0 +1,77 @@
+
+.header-button {
+  background: transparent;
+  color: #333;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header-button:active {
+  transform: translateY(2px); /* Эффект "нажатия" */
+}
+
+.header-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+  border-color: transparent;
+  
+}
+.main-offer {
+  border: 2px solid #181B1E; /* Более выделяющаяся рамка */
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Выбери современный шрифт */
+  font-size: 20px; /* Удобный размер текста */
+  color: #FFFFF3; /* Цвет текста */
+  background-color: #181B1E; /* Темный фон */
+  padding: 17px 34px; /* Внутренние отступы для гармоничных пропорций */
+  transition: all 0.5s ease; /* Плавные переходы */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Тень для объемности */
+  text-transform: uppercase; /* Заглавные буквы для стиля */
+  letter-spacing: 2px; /* Межбуквенный интервал */
+}
+
+.main-offer:hover {
+  cursor: pointer; /* Изменение курсора */
+  background-color: #FFFFF3; /* Светлый фон при наведении */
+  color: #181B1E; /* Темный текст при наведении */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.5); /* Усиление тени */
+  transform: translateY(-2px); /* Легкое "поднятие" кнопки */
+  border-color: transparent;
+}
+
+.main-offer:active {
+  transform: translateY(2px); /* Эффект "нажатия" */
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3); /* Уменьшение тени */
+}
+
+.input-button {
+  width: 250px;
+  height: 60px;
+  background-color: #FFFFF3; /* Белый фон */
+  color: #2D7559; /* Зеленый текст */
+  border: 1px solid #FFFFF3; /* Зеленая рамка */
+  font-size: 32px; /* Размер шрифта */
+  border-radius: 20px; /* Закругленные углы */
+  cursor: pointer; /* Курсор в виде руки при наведении */
+  transition: all 0.3s ease; /* Плавный эффект при наведении */
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 60px; /* Центрирование по высоте */
+}
+
+.input-button:hover {
+  background-color: #2D7559; /* Зеленый фон при наведении */
+  color: #FFFFF3; /* Белый текст при наведении */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легкая тень при наведении */
+}
+
+.input-button:active {
+  background-color: #1d5d3f; /* Темный зеленый фон при нажатии */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Более выраженная тень при нажатии */
+  transform: translateY(4px); /* Эффект сжатия при нажатии */
+}

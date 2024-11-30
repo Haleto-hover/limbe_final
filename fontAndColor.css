@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Cygre-Blac";
+  src: url('./Fonts/cygre_default/Cygre-Black.ttf') format('woff2'),
+       url('./Fonts/cygre_default/Cygre-Black.ttf') format('woff');
+}
+@font-face {
+  font-family: "Cygre-Boo";
+  src: url('./Fonts/cygre_default/Cygre-Book.ttf') format('woff2'),
+       url('./Fonts/cygre_default/Cygre-Book.ttf') format('woff');
+}
+@font-face {
+  font-family: "Cygre-Thi";
+  src: url('./Fonts/cygre_default/Cygre-Thin.ttf') format('woff2'),
+       url('./Fonts/cygre_default/Cygre-Thin.ttf') format('woff');
+}
+/* @font-face {
+  font-family: "Thin";
+  src: url('./Fonts/AlegreyaSans/AlegreyaSans-ThinItalic.woff2') format('woff2'),
+       url('./Fonts/AlegreyaSans/AlegreyaSans-ThinItalic.woff') format('woff');
+} */
+
+
+

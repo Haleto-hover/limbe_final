@@ -1,0 +1,105 @@
+
+.section-3-circle-line-footer {
+  margin-top: -100px;
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 370px; 
+  height: 300px; 
+  transform: translateY(3000px);
+}
+.circle {
+  position: relative;
+  width: 16px; 
+  height: 16px;
+  border-radius: 50%; 
+  background-color: #FFFFF3; 
+  border: 5px solid #2D7559; 
+  z-index: 2;
+}
+.line {
+  position: absolute;
+  width: 100vw;
+  height: 3px; /* Толщина полоски */
+  background-color: #2D7559; /* Цвет полоски */
+  z-index: 1;
+}
+
+.footer-span-1 {
+  font-size: 80px;
+  font-family: 'Cygre-Black';
+  display: flex;
+  justify-content: center;
+  margin-top: 3100px;
+}
+
+.footer-img-1 {
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+.footer-span-2 {
+  font-size: 40px;
+  font-family: 'Cygre-Thin';
+}
+.span-a {
+  color: #2D7559;
+  font-family: 'Cygre-Black';
+}
+.footer-span-green {
+  color: #2D7559;
+  font-size: 40px;
+  font-family: 'Cygre-Black';
+}
+.footer-limbe {
+  color: #2D7559;
+  font-family: 'Cygre-Black';
+  font-size: 40px;
+  
+  margin-top: 100px;
+}
+.div-footer-limbe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 90px;
+}
+.div-footer-span-2 {
+  margin-bottom: 50px;
+}
+.div-footer-span-2-ls {
+  margin-bottom: 50px;
+}
+.div-footer-span-green {
+
+}
+.footer-for-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.gray-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #12171D;
+  transition: background-color 0.3s ease;
+}
+
+.my-contact {
+  color: #FFFFF3;
+  font-family: 'Cygre-Thin';
+  font-size: 20px;
+}
+
+.gray-block:hover {
+  background-color: #12171de2;
+}
+.img-footer-all {
+  
+}

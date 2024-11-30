@@ -1,0 +1,130 @@
+.section-3 {
+  gap: 100px;
+  padding: 20px; 
+  height: 130vh;
+  background-color: #FFFFF3;
+  box-sizing: border-box;
+}
+.text-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section-3-about {
+  position: relative;
+  z-index: 3;
+  margin-top: -70px;
+  margin-bottom: 135px;
+
+}
+.section-3-name {
+  font-family: 'Cygre-Black';
+  font-size: 80px;
+}
+.section-3-info-1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: -470px;
+  max-width: 2000px;
+  position: relative;
+  z-index: 3;
+  font-family: 'Cygre-Thin';
+  font-size: 40px;
+}
+.section-3-span-1-1 {
+  margin-left: 360px;
+  color: #FFFFF3;
+}
+
+.section-3-span-1 {
+  color: #FFFFF3;
+}
+
+.section-3-bold {
+  font-family: 'Cygre-Black';
+}
+.section-3-info-2 {
+  margin-top: 100px;
+  max-width: 1800px;
+  position: relative;
+  z-index: 3;
+  font-family: 'Cygre-Thin';
+  font-size: 40px;
+  color: #FFFFF3;
+}
+.section-3-span-2 {
+  margin-left: 200px;
+}
+
+.section-3-info-3 {
+  margin-top: 250px;
+  position: relative;
+  z-index: 3;
+  font-family: 'Cygre-Thin';
+  font-size: 40px;
+  color: #FFFFF3;
+  
+}
+.section-3-span-3 {
+  color: #323940;
+}
+.section-3-green-block {
+  outline: 50px solid #2D7559;
+  position: relative;
+  z-index: 1;
+  background-color:#2D7559;
+  width: 100vw;
+  height: 500px;
+}
+.section-3-img {
+  margin-bottom: 200px;
+  outline: 2px solid #2D7559;
+  position: relative;
+  z-index: 1;
+  background-color:#2D7559;
+  width: 100vw;
+  width: 100;
+}
+.green-balls {
+  border: 30px solid  #2D7559;
+  position: relative;
+  z-index: 1;
+  background-color:#FFFFF3;
+  border-radius: 50px;
+  margin-top: -953px;
+}
+.section-3-circle-line {
+  margin-top: -100px;
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 370px; 
+  height: 300px; 
+}
+.circle {
+  position: relative;
+  width: 16px; 
+  height: 16px;
+  border-radius: 50%; 
+  background-color: #FFFFF3; 
+  border: 5px solid #2D7559; 
+  z-index: 2;
+}
+.line {
+  position: absolute;
+  width: 100vw;
+  height: 3px; /* Толщина полоски */
+  background-color: #2D7559; /* Цвет полоски */
+  z-index: 1;
+}
+.section-3-span-3-3 {
+  margin-bottom: 100px;
+  display: block;
+  color: #323940;
+  margin-left: 200px;
+}
+.section-3-span-2-2-2 {
+  margin-left: 660px;
+}

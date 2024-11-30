@@ -1,0 +1,65 @@
+/* Общий стиль для header */
+.header { 
+  height: 110px;
+  background-color: #FFFFF3; /* Светлый фон */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Тень */
+  border-radius: 8px; /* Легкое закругление углов */
+  /* padding: 0 20px; Внутренние отступы */
+  position: sticky; /* Закрепление хедера при прокрутке */
+  top: 0;
+  z-index: 100; /* Чтобы хедер был поверх контента */
+}
+
+/* Логотип */
+.header-img {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 10px;
+}
+
+/* Текст логотипа */
+.LimBe {
+  font-family: 'Cygre-Book';
+  font-size: 10px;
+  margin-top: -5px;
+  color: #333; /* Добавлен цвет для контраста */
+}
+
+/* Навигация */
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Стили для кнопок */
+.header-button {
+  /* padding: 10px 20px; */
+  font-size: 6px;
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 5px; /* Скругленные углы */
+  transition: all 0.3s ease; /* Плавность изменений */
+  cursor: pointer;
+}
+
+/* Эффекты при наведении на кнопки */
+.header-button:hover {
+  color: #fff; /* Белый текст при наведении */
+  transform: scale(1.05); /* Легкое увеличение */
+}
+
+/* .word-logo {
+  display: inline-block;
+  width: 25%;
+} */
+.header-nav {
+  display: inline-block;
+  /* width: 75%; */
+  margin-right: 90px;
+
+}

@@ -1,0 +1,111 @@
+.section-4 {
+  margin-top: 200px;
+  height: 120vh;
+  background-color: #FFFFF3;
+}
+.section-4-main-word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -400px;
+}
+
+/* Стили для Полины */
+.person-1 {
+  display: flex;
+  flex-direction: column;
+}
+.person-1 img {
+  width: 200px;
+  height: auto;
+  box-shadow: 100px 50px 100px rgba(0, 0, 0, 0.3);
+  margin-left: 112px;
+}
+
+.section-4-span-person {
+  font-size: 40px;
+  font-family: 'Cygre-Thin';
+}
+.name {
+  font-size: 50px;
+  font-family: 'Cygre-Black';
+}
+.section-4-team-info {
+  font-family: 'Cygre-Black';
+  font-size: 80px;
+  margin-bottom: 150px;
+}
+.section-4-span-person {
+  font-size: 40px;
+  font-family: 'Cygre-Thin';
+  line-height: 1.5;
+}
+.section-4-person-1-div {
+  margin-left: 700px;
+  margin-top: -450px;
+}
+.div-name-1 {
+  margin-top: -90px;
+  margin-bottom: 10px;
+}
+.section-4-span-person-more {
+  font-size: 40px;
+  font-family: 'Cygre-Thin';
+}
+.div-section-4-span-person {
+  line-height: 1.1;
+}
+.div-section-4-span-person-more {
+  margin-top: 50px;
+  max-width: 800px;
+}
+/* стили для Дани */
+
+.person-2 img {
+  width: 200px;
+  height: auto;
+  box-shadow: 100px 50px 100px rgba(0, 0, 0, 0.3);
+  margin-left: 112px;
+}
+
+.person-2 {
+  /* display: flex;
+  flex-direction: row-reverse; */
+  align-items: right;
+  text-align: right;
+  margin-right: 112px;
+}
+.section-4-person-2-div {
+  margin-top: 130px;
+}
+
+.section-4-circle-line-4 {
+  transform: translateY(1100px);
+  position: relative;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 370px; 
+  height: 300px; 
+  margin-top: -800px;
+}
+.circle {
+  position: relative;
+  width: 16px; 
+  height: 16px;
+  border-radius: 50%; 
+  background-color: #FFFFF3; 
+  border: 5px solid #2D7559; 
+  z-index: 2;
+}
+.line {
+  position: absolute;
+  width: 100vw;
+  height: 3px; /* Толщина полоски */
+  background-color: #2D7559; /* Цвет полоски */
+  z-index: 1;
+}
+
+
+
+
